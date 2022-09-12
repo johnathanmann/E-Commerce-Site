@@ -12,9 +12,20 @@ router.get('/', (req, res) => {
 
 // Finds a category by its id
 router.get('/:id', async (req, res) => {
-  Category.findByPk(req.params.id).then((categoryData) => {
-    res.json(categoryData);
-  });
+
+  try {
+    const categoryData = await Category.findByPk(req.params.id);
+
+    // If the catagory data cant be found the user will be let known
+    if (!categoryData) {
+      res.status(404).json({ message: 'No category found with that id!' });
+      return;
+    }
+
+    res.status(200).json(categoryData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 // Creates new category from JSON input
