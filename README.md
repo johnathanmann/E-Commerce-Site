@@ -7,7 +7,7 @@ The goal of this project was to create the backend of an e-commerce website.
 Check out the different aspects of the project below:
 
 - [Repository](https://github.com/johnathanmann/E-Commerce-Site/)
-- [Video of deployed application](https://watch.screencastify.com/v/6ZXklIvAx1XUoD39w2bM)
+- [Video of deployed application](https://watch.screencastify.com/v/QFTbkOi7ZTnULqUOtVss)
 
 
 ## Install
