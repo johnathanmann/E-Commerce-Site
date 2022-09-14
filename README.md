@@ -14,7 +14,7 @@ Check out the different aspects of the project below:
 Feel free to install using GitHubs recommended clone methods or by downloading the code and opening it in your preferred text editor. Once installed use `npm i` to download dependencies.
 
 ## Requirements
-You need a text editor of your choice, [MYSQL](https://www.mysql.com/), [Sequalize](https://sequelize.org/), [MYSQL2](https://www.npmjs.com/package/mysql2), and [Dotenv](https://www.npmjs.com/package/dotenv). Additionally you need an api tester I user [Insomnia](https://insomnia.rest/download).
+You need a text editor of your choice, [MYSQL](https://www.mysql.com/), [Sequalize](https://sequelize.org/), [MYSQL2](https://www.npmjs.com/package/mysql2), and [Dotenv](https://www.npmjs.com/package/dotenv). Additionally you need an api tester I use [Insomnia](https://insomnia.rest/download).
 
 ## Summary
-This application takes in user input and adds it to a MYSQL database. The user can view, add, and delete departments, roles, and employees. 
+This application takes in user input from the api tester and inserts it into a MYSQL database. The user can add, create, delete and update the databases categories, products, and tags. They can also view everything in their database. 
